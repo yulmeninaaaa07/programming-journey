@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Galeri</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #fdf6f0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+.card:nth-child(1) { background: #ffd6e0; } 
+.card:nth-child(2) { background: #d6f5ff; } 
+.card:nth-child(3) { background: #fff5cc; } 
+.card:nth-child(4) { background: #e0ffd6; } 
+.card:nth-child(5) { background: #f0d6ff; } 
+.card:nth-child(6) { background: #ffeacc; } 
+
+.card:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌸 Galeri Foto 🌸</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="SEND.jfif">
+        <p>Foto 1 (AKU)</p>
+    </div>
+
+    <div class="card">
+        <img src="ZHA.jfif">
+        <p>Foto 2 (With Zhai)</p>
+    </div>
+
+    <div class="card">
+        <img src="LHEN.jfif">
+        <p>Foto 3 (ini sama linda)</p>
+    </div>
+
+    <div class="card">
+        <img src="c:\HTML yulmenina\TUGASSS 4,5,8,9,10,11,12,13\0RGA.jfif">
+        <p>Foto 4 (OSIS)</p>
+    </div>
+
+    <div class="card">
+        <img src="EHM.jfif">
+        <p>Foto 5</p>
+    </div>
+
+    <div class="card">
+        <img src="EA.jfif">
+        <p>Foto 6</p>
+    </div>
+
+</div>
+
+</body>
+</html>

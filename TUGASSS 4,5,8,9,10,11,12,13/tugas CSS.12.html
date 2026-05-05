@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Z-Index Gallery</title>
+
+<style>
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.img3 {
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.img2 {
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.img1 {
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Contoh Z-Index</h2>
+
+<div class="container">
+    <img src="SEND.jfif" class="img1">
+    <img src="ZHA.jfif" class="img2">
+    <img src="LHEN.jfif" class="img3">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+  font-family: Arial;
+  background-color: #fef6ff;
+}
+
+h2{
+  text-align: center;
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #cdb4db;
+}
+
+li{
+  display: inline-block;
+  position: relative;
+}
+
+li a{
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover{
+  background: #b5838d;
+}
+
+.dropdown{
+  display: none;
+  position: absolute;
+  background: #ffc8dd;
+}
+
+li:hover .dropdown{
+  display: block;
+}
+
+.dropdown li{
+  display: block;
+}
+
+section{
+  padding: 20px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  width: 160px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:nth-child(1){ background:#ffd6e0; }
+.card:nth-child(2){ background:#d6f5ff; }
+.card:nth-child(3){ background:#e0ffd6; }
+.card:nth-child(4){ background:#fff5d6; }
+.card:nth-child(5){ background:#f0d6ff; }
+.card:nth-child(6){ background:#d6fff6; }
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h4{
+  margin: 8px 0 4px;
+}
+
+.card p{
+  font-weight: bold;
+}
+
+button{
+  background: #cdb4db;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #b5838d;
+  color: white;
+}
